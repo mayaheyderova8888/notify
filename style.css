@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css?family=Gothic+A1:100,200,300,400,500,600,700,800,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Gothic+A1:100,200,300,400,500,600,700,800,900|Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap');
+#head{
+    background-color: #2ecc71;
+    height: 10px;
+}
+header{
+    background-image: url('img/bg.jpg');
+    background-repeat: no-repeat;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+header .container>img
+{ padding-top:160px ;
+    padding-left: 250px;
+
+}
+header .container p{
+    width: 460px;
+font:500 1.5em'Gothic A1', sans-serif; 
+line-height: 36px;
+color: #FFF;
+margin-left: 250px;
+margin-top: 35px;
+}
+header ul{
+    display: flex;
+    flex-flow: row wrap;
+    padding-left: 250px;
+    margin-top: 35px;
+    padding-bottom: 180px;
+    
+
+}
+header ul li {
+    background-color:  #372319;
+    border:solid 10px #372319;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+ 
+       header a:hover {
+  background-color:#2ecc71;
+  border-radius: 50%;
+font-size: 200%;
+border: solid 10px #2ecc71;
+}
+#bir .container{
+    display: flex;
+    text-align: center;
+    
+    
+}
+#bir h3{
+    font: 600 1.25em 'Raleway', sans-serif;
+    line-height: 18px;
+    color: #222222;
+    margin-top: 30px;
+    
+}
+#bir p{
+    width: 350px;
+height: 130px;
+font: 1em 'Gothic A1', sans-serif;
+line-height: 26px;
+color: #848484;
+text-align: center;
+margin-top: 30px;
+margin-bottom: 55px;
+margin-right: 40px;
+}
+#bir img{
+    background-color: #2ecc71 ;
+    margin-top: 55px; 
+    width: 80px;
+    height: 80px ;
+    border-radius: 50%;
+    border: solid 20px #2ecc71;
+    
+}
+#iki{
+    background-color: #e3e3e3;
+}
+#iki .container{
+    display: flex;
+}
+#iki .container h3{
+    font: 600 1.25em 'Raleway', sans-serif;
+    line-height: 18px;
+    color: #222222;
+padding-top: 60px;
+}
+#iki p{
+    width: 541px;
+    font: 1em 'Gothic A1', sans-serif;
+    line-height: 26px;
+    color: #848484;
+    margin-top:30px;
+
+}
+#iki form{
+    display: flex;   
+}
+#iki input{
+    margin-top: 30px;
+width: 300px;
+    height: 40px;
+    font: 1.125em 'Gothic A1', sans-serif;
+    line-height: 18px;
+    color: #848484;
+    padding-left: 30px;
+    border-radius: 10px;
+    border:none;
+    }
+    #iki button{
+        width: 140px;
+        height: 40px;
+        margin-top: 30px;
+        font: 600 1.125em 'Gothic A1', sans-serif;
+        line-height: 18px;
+        color: #FFF;
+        background-color: #2ecc71;
+        border-radius: 10px;
+        border: none;
+    }
+    #iki img{
+        width: 500px;
+        height: 300px;
+        margin-top: 60px;
+        margin-left: 100px;
+}
+#uch .jane >p{
+    width: 950px;
+    font: italic 1.125em 'Raleway', sans-serif;
+    line-height: 30px;
+    color: #848484;
+    text-align: center;
+margin-top: 55px;
+margin-left: 120px;
+}
+
+#uch .jane h4{
+    font: 700 1.125em 'Raleway', sans-serif;
+line-height: 20px;
+color: #2e2e2e;
+text-align: center;
+margin-top: 25px;
+}
+#uch .jane img{
+    width: 50px;
+    height: 50px;
+    margin-top: 30px;
+}
+ #uch .jane a :hover{
+    background-color: #2ecc71;
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+    border:10px solid #2ecc71;
+}
+#uch .icon h3{
+font: 600 1.5em 'Raleway', sans-serif;
+line-height: 24px;
+color: #000000;
+text-align: center;
+margin-top: 50px;
+}
+#uch .icon p{
+    font: 1em 'Gothic A1', sans-serif;
+line-height: 26px;
+color: #848484;
+text-align: center;
+margin-top: 30px;
+}
+#uch ul{
+    display: flex;
+    margin-left: 500px;
+}
+#uch .icon i{
+    background-color: #d4d4d4;
+    border:solid 10px #d4d4d4;
+    border-radius: 50%;
+    margin-top: 25px;
+    text-align: center;
+    margin-bottom: 60px;
+    margin-left: 10px;
+    
+}
+#uch a{
+    color:#FFF;
+}
+#uch a :hover{
+background-color:#2ecc71;
+width: 40px;
+height: 40px;
+}
+footer{
+    background-color: #e3e3e3;
+}
+footer nav ul{
+    display: flex;
+    margin-left:350px ;
+} 
+footer ul li {
+   margin-right: 25px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    
+    font:1em'Gothic A1', sans-serif;  ;
+line-height: 26px;
+color: #848484;   
+    
+}
